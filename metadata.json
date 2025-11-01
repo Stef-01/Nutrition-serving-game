@@ -1,0 +1,5 @@
+{
+  "name": "NutriPlate Planner",
+  "description": "A web application to visually build balanced meals. Drag food items to your plate, adjust portions using volume sliders, and get real-time feedback on macronutrients (carbs, protein, fat, fiber) and total calories to meet your dietary targets.",
+  "requestFramePermissions": []
+}
