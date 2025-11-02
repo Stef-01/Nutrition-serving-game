@@ -121,3 +121,17 @@ export interface ChangelogEntry {
   date: string;
   changes: string[];
 }
+
+// For new nutrition service
+export interface Recipe {
+  course?: 'main' | 'side' | 'snack';
+  high_protein?: boolean;
+  high_fiber?: boolean;
+  low_carb?: boolean;
+  diabetic_friendly?: boolean;
+  calories_kcal?: number;
+  protein_g?: number;
+  carbs_g?: number;
+  fiber_g?: number;
+  fat_g?: number;
+}
